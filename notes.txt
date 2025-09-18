@@ -1,170 +1,220 @@
 
-C - datatypes
----
-int a = 10;
-float  b= 343;
+c datatypes
+------------
+int a = 10 ;
+float b = 34.43;
 char
 double
 long
 short
 
-Everything in python is object.
-Every object contains methods
 
-python - objects
-------------------
+python objects
+---------------
+Everything in python is a object.
+every object contains mehods
+
 
 number
+-----
+number can be integer or decimal or hexa or oct.
 
-a = 10
-aval = 34.3
-
+aval = 10
+bval = 34.3
 
 string
--------
+------
 string is defined in single or double or triple quotes.
-string is immutable
+
 aname = 'python programming'
 bname = "java programming"
-cname = """unix shell scripting"""
+cname = """spark programming"""
 
 
-
-list ( array in C)
------
-list contains set of elements.
-Elements can be numbers or strings or any combination.
-list is defined in []
-s
-alist = [10,45,30,50,3]
-blist = ["python","unix","oracle"]
-clist = [20,"unix",[10,2030]]
-
-tuple ( immutable uneditable unchangeable)
+list ( array in c)
 ------
+list contains set of elements.
+Elements can be number,strings or any combination.
+list is defined in [].
+
+alist = [10,20,30,40]
+blist = ["python","unix","oracle"]
+clist = [40,34.343,"python",[34,5]]
+
+
+tuple ( immutable  unchangeable  uneditable)
+-------
 tuple contains set of elements.
-Elements can be numbers or strings or any combination.
+Elements can be number,strings or any combination.
 tuple is defined in ().
-*** Elements inside tuple cannot be modified directly ***
+tuple is immutable
+*** Elemeents inside tuple cant be modified directly ***
 
-atup = (30,40,50)
-btup = ("java","oracle")
-
-# list of lists
-empdb = [["ram",20,"US"],["rita",24,"UK"]]
-# list of tuples
-empdb = [("ram",20,"US"),("rita",24,"UK")]
+atup = (45,32,5,3,45)
+bup = ("jav","oracle",'perl')
 
 
 
-dictionary  ( json  hashmap  hash  associativearray  mapping item)
--------------
-dictionary contains eelements in key value pairs
+dictionary  ( json  hash   hashmap  map   associative array)
+------------
+dictionary is all about keys and values.
 dictionary is defined in {}.
-in dictionary.. keys are unique and it would be number or string
-                values can be number or string or list or tuple or dict
+keys are always unique
+key can be either number or string
+value can be integer or string or list or tuple or dict.
 
+syntax:    object = { key:value , key:value , key:value }
+example:     book = {"chap1":10 ,"chap2":20 ,"chap3":30 }
+             data = {1:2,3:4,5:6}
+             book = {"chap1":["sita","US"] ,"chap2":["rita","UK"]}
 
-
-
-syntax:  object = { key:value , key:value , key:value}
-example:   book = {"chap1":10 ,"chap2":20 ,"chap3":30}
-
-
-example:
-   Index
-   -----
+index 
+-----
 chap1   10
-chap2   20
+chap2   20 
 chap3   30
-chap4   40
-chap5   40 
-
-
+chap1 
 
 
 set ( venn diagrams)
------
-set is UNORDERED collection of UNIQUE elements of SAME type.
+---
+set is UNORDERED collection of UNIQUE elements of same type.
 
-aset = {10,10,10,20,30,30,30}
+aset = {10,10,20,30,30}
 
 
-
-conditions
-------------
-if condition
+condition
+--------
+simple if
 if-else 
-if-elif-elif-elif-elif-else 
+if-elif-elif-elif-elif-else
 
 
-control statements
------------------
-for 
-while 
+c
+---
+if ( 1 < 2)
+{
+
+}
 
 
-
-level1
-level1
+level1 
 level1
 level1
 if cond:
     level2
     level2
     level2
-    if cond:
-        level3
-        level3
-        level3
 level1
 level1
 
-
-comments in python
-----------------
-# singe line comment 
-
-'''
-this 
-is 
-multiline
-comment
-'''
-
-"""
-this
-is
-multiline comment 
-"""
+control statments
+--------------------
+for loop
+while loop
 
 
-
-
-requirement =    core programming     + libraries    +  domain
-                 ( procedural or oop)
-
-
-
-when python is installed in your system.. 
-python gets installed with 3k that are generally used
-
-builtin libraries : C:\Python313\Lib
-
-third party libraries: C:\Python313\Lib\site-packages
-
-
-#include<stdio.h>
-#include<conio.h>
-#include<math.h>
-#include<string.h>
-#include<graphics.h>
-
-
-
-for ( i = 1 ; i < 10 ;i++)
+for ( i = 1 ;i <=10 ;i++)
 {
-    printf()
+
 }
 
 
+
+
+file extensions 
+----------------
+
+txt
+docx
+zip
+log 
+pdf
+xlsx 
+pptx 
+yaml
+json 
+csv 
+tar 
+jpeg
+mpeg
+mp4
+mp4 
+dat 
+conf 
+prop
+exe 
+bat
+apk 
+xml
+
+working with flat files ( csv json log conf dat )
+------------------------
+
+
+read  mode  ( r )
+write mode  ( w )
+append mode ( a )
+
+reading file 
+--------------
+
+syntax:    obj = open(filename,mode)
+example:  fr = open("customers.txt","r") # read mode
+          fw = open("customers.txt","w") # write mode 
+          # it overwrites the existing content 
+          fa = open("customers.txt","a") # append mode 
+          # it adds the new data
+
+
+
+
+close the file 
+----------------
+fr.close()
+
+
+reading the file 
+-----------------
+1. reading the file line by line 
+2. fobj.read()
+3. fobj.readlines()
+4. using csv library
+5. using pandas library
+
+
+writing to file 
+-----------------
+fobj.write(string)
+fobj.writelines(list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+working with third party files ( pdf xlsx pptx mp4 )
+--------------------------
+
+
+
+
+
+exceptio handling 
+-----------------
+syntax error
+
+semantic error or runtime error or logical error 
+-------------------------
+handling errors that occurs during runtime is known as exception handling
+
+try
+except
