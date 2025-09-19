@@ -218,3 +218,69 @@ handling errors that occurs during runtime is known as exception handling
 
 try
 except
+
+
+
+Libraries 
+-------------
+There are 2 types of librareis 
+
+
+builtin libraries 
+---------------------
+When python gets installed , all the builtin libraries will be installed.
+
+C:\Python313\Lib
+
+
+third party libraries
+----------------------
+Depending on your requirement developer has to install the
+ third party library from www.pypi.org
+
+using
+1. pip tool 
+2. downloading and installing manually.
+
+
+requirement
+-------------
+cloud autoamtion
+network autoamtion
+web development 
+web scraping 
+machine learning 
+deep learning 
+gui 
+genui
+
+
+
+python extensions 
+----------------------
+
+
+abed.py     ( python progarms)
+--------------------------
+programs 
+automations 
+scripts 
+web development
+- my goal is to execute the whole code at at time
+- network automations
+
+
+
+abc.ipynb  ( integratedpython notebooks)
+----------------------------------
+- line by line execution 
+- data analytics
+- machine learning 
+- genai
+
+How to open abcde.ipynb 
+-----------------------
+open it vs code 
+anaconda jupyter notebook  ( anaconda is just like vscode )
+
+google colab
