@@ -1,0 +1,30 @@
+
+####################### ftp server details #####################
+Host: ftp.dlptest.com
+
+Port: 21
+
+User: dlpuser
+
+Password: rNrKYTX9g7z3RgJRmxWuGHbeu
+
+
+
+#####################ssh server details   #######################
+HOST : bandit.labs.overthewire.org
+USER : bandit0
+PW   : bandit0
+
+
+
+
+
+#########ignore this ########ssh server details   #######################
+
+Host: test.rebex.net
+
+Port: 22
+
+User: demo
+
+Password: password
