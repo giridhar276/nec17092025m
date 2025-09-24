@@ -1,0 +1,1341 @@
+
+https://codeshare.io/5NZnMr
+
+https://cloud4.rpsconsulting.in/console/#
+
+
+https://github.com/giridhar276/nec17092025m
+
+
+
+Username	     Password
+-----------------------
+
+25SHU3212_U01	rps@12345 Mahendran Velusamy
+25SHU3212_U02	rps@12345
+25SHU3212_U03	rps@12345 Vipal Jadav
+25SHU3212_U04	rps@12345 Vikash Kumar
+25SHU3212_U05	rps@12345 Aishwarya Mishra
+25SHU3212_U06	rps@12345 Vaishali Agarwal
+25SHU3212_U07	rps@12345 Vinit Chhaparia
+25SHU3212_U08	rps@12345 Ankur Jain
+25SHU3212_U09	rps@12345 Dinesh
+25SHU3212_U10	rps@12345 
+25SHU3212_U11	rps@12345 Tejashwini
+25SHU3212_U12	rps@12345
+25SHU3212_U13	rps@12345 P.Guruprasad
+25SHU3212_U14	rps@12345 sanjay choudhury
+25SHU3212_U15	rps@12345 Deepak Gaikwad
+25SHU3212_U16	rps@12345 Pooja Raj
+25SHU3212_U17	rps@12345
+25SHU3212_U18	rps@12345
+25SHU3212_U19	rps@12345 Preeti Samhita
+25SHU3212_U20	rps@12345
+25SHU3212_U21	rps@12345 Nikhil Mohan
+25SHU3212_U22	rps@12345 Shivam Shukla
+25SHU3212_U23	rps@12345 Kalki Patimidi
+25SHU3212_U24	rps@12345
+25SHU3212_U25	rps@12345 siva prasad
+25SHU3212_U26	rps@12345 Yakesh Jadala
+25SHU3212_U27	rps@12345
+25SHU3212_U28	rps@12345 Bharti Rawat
+25SHU3212_U29	rps@12345
+25SHU3212_U30	rps@12345 Ravi Jarupula
+
+
+
+
+
+
+
+
+
+
+
+name = "python programming"
+#name[0]="z"
+#name[start:stop:step]
+print(name[0])
+print(name[1])
+print(name[2:9])
+print(name[7:9])
+print(name[0:18])
+print(name[0:18:1])
+print(name[:])
+print(name[::])
+print(name[0:18:2])
+print(name[0:18:3])
+print(name[-1])
+print(name[-2])
+print(name[-5:-2])
+print(name[::-1])
+
+
+
+name = "python programming"
+print(name.capitalize())
+print(name.title())
+print(name.upper())
+print(name.lower())
+print(name.isupper())
+print(name)
+print(name.islower())
+print(name.split(" "))
+print(name.center(40))
+print(name.center(40,"*"))
+print(name.replace("python","ruby"))
+print(name.find("in")) # returns index if substring found
+print(name.find("abc"))# -1 if not found
+
+aname  = "  python "
+print(len(aname))
+print(len(aname.strip()))
+print(len(aname.lstrip()))
+print(len(aname.rstrip()))
+bname = "I love {} and {}" # template
+print(bname.format("Noida","Hyderabad"))
+print(bname.format("python","unix"))
+
+  print(name.count("p"))
+print(name.count("ram"))
+print(name.startswith("p"))
+print(name.endswith("g"))
+print(name.replace("python","spark"))
+print(name.encode('utf-16'))
+
+
+
+
+
+
+
+#simple if condition
+if name.startswith("p"):
+    print("its python")
+    print("inside if")
+    print("still inside if")
+
+if name.islower():
+    print("string is lower")
+
+if name == "python programming":
+    print("python")
+
+if 1 < 2:
+    print("true")
+
+
+if name.islower():
+    print("string is lower")
+    print("inside if")
+    print("still inside if")
+else:
+    print("string is upper")
+    print("inside else")
+
+
+
+
+#if-elif-elif-elif-elif-else
+name = input("Enter any language:")
+if name == "python":
+    print("python")
+elif name == "java":
+    print("java")
+elif name == "unix":
+    print("unix")
+elif name == "spark":
+    print("spark")
+else:
+    print("its someother language")
+
+
+
+
+
+
+
+if name.find("th") != -1:
+    print("substring found")
+
+if 'th' in name:
+    print("substring found")
+else:
+    print("not found")
+
+
+
+
+
+
+
+
+# stringt concatenation
+first = "python"
+second = "programming"
+final = first + " " + second
+print(final)
+
+#string repetition
+print(first * 3)
+
+alist = [10,20,30]
+blist = [30,40,50]
+finalist = alist + blist
+print(finalist)
+print(alist * 4)
+
+
+
+
+
+
+
+# range(start,stop,step)
+for i in range(1,11):
+    print(i)
+
+print("reversing numbers")
+for val in range(10,0,-1):
+    print(val)
+
+print("even numbers")
+for i in range(2,11,2):
+    print(i) 
+
+name  = "python"
+for char in name:
+    print(char)
+
+alist = [10,20,"python"]
+for val in alist:
+    print(val)
+
+
+
+
+
+alist = [12,98,49,52,59,95,75,29,10]
+print(alist[0:5])
+print(alist[5:8])
+
+# list methods
+alist.append(62)
+print("After appending:",alist)
+alist.extend([48,18,63])
+print("After extending:",alist)
+#list.insert(index,value)  #list.insert(where to inesrt, what to insert)
+alist.insert(1,100)
+print("After inserting:",alist)
+# list.pop(index)
+alist.pop(1) # 1 is the index # value at 1 is removed
+print("After pop operation:",alist)
+
+if 200 in alist:
+    alist.remove(200)
+    print("After removing:",alist)
+else:
+    print("value not in list")
+
+alist.reverse()
+print("After reversing:",alist)
+alist.sort()
+print("After sorting:",alist)
+alist.sort(reverse=True)
+print("After sorting",alist)
+
+
+
+
+
+
+
+atup = (45,24,56,34,43)
+
+print(atup.count(43))
+
+print(atup.index(24))
+
+
+
+
+
+
+
+book = {"chap1":10 ,"chap2":20 ,"chap3":30,"chap1":1000}
+print("Initial dictionary :", book)
+
+#adding new key-value
+book["chap4"] = 40
+book["chap5"] = 50
+book["chap6"] = 60
+
+print("Updated book :",book)
+
+# display individual values
+print(book['chap1'])
+print(book['chap2'])
+print(book['chap3'])
+
+# display keys
+print(book.keys())
+print("keys:")
+for key in book.keys():
+    print(key)
+
+print("keys:")
+for key in book:
+    print(key)
+
+# display values
+print("values")
+print(book.values())
+
+
+for value in book.values():
+    print(value)
+
+
+# display items
+for key,value in book.items():
+    print(key,value)
+
+
+
+
+
+
+
+colors = [
+{
+"colors": "red",
+"values": "#f00"
+},
+{
+"colors": "green",
+"values": "#0f0"
+},
+{
+"colors": "blue",
+"values": "#00f"
+},
+{
+"colors": "cyan",
+"values": "#0ff"
+},
+{
+"colors": "magenta",
+"values": "#f0f"
+},
+{
+"colors": "yellow",
+"values": "#ff0"
+},
+{
+"colors": "black",
+"values": "#000"
+}
+]
+
+write a program to display all the colors and its values.
+
+sample output :
+
+red #f00
+green #0f0
+yellow  #ff0
+magenta #f0f
+..
+..
+..
+
+
+
+
+for item in colors:
+    print(item['colors'] , item['values'] )
+
+
+###################################################################
+
+
+Write a program to display all employee names and their departments.
+
+employees = {
+    "E001": {"name": "Alice", "department": "Finance"},
+    "E002": {"name": "Bob", "department": "IT"},
+    "E003": {"name": "Charlie", "department": "HR"}
+}
+
+
+sample output:
+
+Alice  Finance
+Bob    IT
+..
+..
+
+
+
+
+
+for emp in employees.values():
+    print(emp['name'] , emp['department'])
+
+
+
+for emp in employees:
+    print(employees[emp]['name'] ,employees[emp]['department']  )
+
+
+
+##################################
+
+
+Write a program to print team names and player names.
+
+teams = {
+    "TeamA": [
+        {"name": "Alice", "role": "Batsman"},
+        {"name": "Bob", "role": "Bowler"}
+    ],
+    "TeamB": [
+        {"name": "Charlie", "role": "Allrounder"},
+        {"name": "Dave", "role": "Wicketkeeper"}
+    ]
+}
+
+
+sample output:
+
+TeamA
+-----
+Alice
+Bob
+
+TeamB
+-----
+Charlie
+Dave
+
+
+
+
+
+for key,value in teams.items():
+    print(key)
+    print("-------")
+    for item in value:
+        print(item['name'])
+        
+        
+        
+
+
+
+
+
+
+
+
+aset = {10,10,20,20,20,30,30}
+print(aset)
+
+bset = {30,30,30,40,40,50,50}
+print(bset)
+
+aset.add(10)
+print("after updating:",aset)
+aset.add(40)
+print("after updating:",aset)
+
+
+print(aset.union(bset))
+print(aset.intersection(bset))
+print(aset.difference(bset))
+print(aset.issubset(bset))
+print(aset.issuperset(bset))
+
+
+
+
+employees.txt
+------------
+employee_id,name,department,role,location
+E001,Aarav Kumar,Engineering,Data Scientist,Bengaluru
+E002,Diya Sharma,Engineering,Backend Developer,Hyderabad
+E003,Rohan Iyer,Finance,Financial Analyst,Mumbai
+E004,Ishita Mehta,HR,HR Business Partner,Pune
+E005,Vikram Singh,Sales,Account Manager,Delhi
+E006,Neha Gupta,Marketing,Content Strategist,Gurugram
+E007,Arjun Reddy,Support,Support Engineer,Hyderabad
+E008,Priya Nair,Operations,Ops Specialist,Chennai
+E009,Sanjay Rao,Engineering,DevOps Engineer,Bengaluru
+E010,Kiran Joshi,Product,Product Manager,Pune
+
+
+
+
+
+
+
+# displaying line by line
+fobj = open("employees.txt","r")
+for line in fobj:
+    print(line.strip())
+fobj.close()
+
+print("---------------------------------------------------")
+## using fobj.read() -------> string
+fobj = open("employees.txt","r")
+print(fobj.read())  # ctrl+a   then ctrl + C    then ctl + P
+fobj.close()
+
+print("---------------------------------------------------")
+# using fobj.readlines() -----> list
+fobj = open("employees.txt","r")
+print(fobj.readlines())
+fobj.close()
+
+
+
+############################ write operation ###############
+
+fobj = open("customers.txt","w")
+
+fobj.write("python programming\n")
+fobj.write("genai\n")
+
+fobj.writelines(["unix","python","java\n"])
+
+for value in range(1,10):
+    fobj.write(str(value)  + "\n")
+
+fobj.close()
+
+
+
+
+
+
+
+
+
+
+# displaying line by line
+fobj = open("employees.txt","r")
+for line in fobj:
+    print(line.strip())
+fobj.close()
+
+# context manager
+# if any line starts using 'with' keyword .. it is context manager
+# file is opened inside the context
+# Advantage: file gets clsoed automatically
+with open("employees.txt","r") as fobj:
+    print(fobj.read())
+
+####################################################################
+fobj = open("customers.txt","w")
+fobj.write("python programming\n")
+fobj.write("genai\n")
+fobj.close()
+
+### using context manager
+with open("customers.txt","w") as fobj:
+    fobj.write("python programming\n")
+    fobj.write("genai\n")
+
+
+
+
+
+
+
+
+with open("employees.txt","r") as fobj:
+    deparmentlist =  []
+    for line in fobj:
+        line = line.strip()
+        output = line.split(",")
+        print(output[1].upper())
+        deparmentlist.append(output[2])
+    
+    print("all available departments")
+    for item in deparmentlist:
+        print(item.lower())
+    
+
+
+
+
+
+
+
+
+
+try:
+    fobj = open("employees111.txt","r")
+    for line in fobj:
+        print(line.strip())
+    fobj.close()
+except FileNotFoundError as err:
+    print(err)
+    print("file is not found")
+
+###############################################################
+
+try:
+    fobj = open("employees111.txt","r")
+    for line in fobj:
+        print(line.strip())
+    fobj.close()
+except TypeError as err:
+    print(err)
+except ValueError as err:
+    print(err)
+except FileNotFoundError as err:
+    print(err)
+    print("file is not found")
+
+
+
+
+### list of builtin exceptions and functionnames
+print(dir(__builtins__))
+
+
+for item in dir(__builtins__):
+    print(item)
+    
+    
+    
+    
+    
+
+import math
+print(math.floor(3.3))
+print(math.log(1))
+print(math.tan(1))
+
+
+
+import math as m
+print(m.floor(3.3))
+print(m.log(1))
+print(m.tan(1))
+    
+
+
+
+
+
+
+
+
+
+################################### frequently used builtin libraries #############################
+
+os         : os level activities
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+
+
+
+
+
+
+
+
+import math
+print(math.floor(3.3))
+print(math.log(1))
+print(math.tan(1))
+
+
+import math as m
+print(m.floor(3.3))
+print(m.log(1))
+print(m.tan(1))
+
+
+import os
+print(os.listdir("C:\\"))
+#print(os.listdir())   # from the current directory
+for file in os.listdir():
+    print(file)
+
+
+import datetime
+print(datetime.datetime.now())
+
+
+import sys 
+print(sys.version)
+
+import psutil 
+print(psutil.cpu_percent())
+print(psutil.virtual_memory())
+
+
+import shutil # shell utilities ( copying files , moving files )
+
+
+import calendar
+print(calendar.month(2025,9))
+
+
+import random 
+print(random.randint(1,100))
+
+
+
+
+
+
+https://github.com/giridhar276/nec17092025m/blob/main/empinfo.csv
+
+
+
+
+!pip install openpyxl
+
+
+
+
+
+[
+  {
+    "device_id": "R1",
+    "hostname": "edge-router-1",
+    "mgmt_ip": "10.0.0.1",
+    "role": "router",
+    "location": "DC1",
+    "os": "IOS-XE",
+    "vlans": [10, 20, 30]
+  },
+  {
+    "device_id": "SW1",
+    "hostname": "core-switch-1",
+    "mgmt_ip": "10.0.1.10",
+    "role": "switch",
+    "location": "DC1",
+    "os": "NX-OS",
+    "vlans": [10, 20, 40, 50]
+  },
+  {
+    "device_id": "FW1",
+    "hostname": "perimeter-fw",
+    "mgmt_ip": "10.0.254.1",
+    "role": "firewall",
+    "location": "Edge",
+    "os": "PAN-OS",
+    "vlans": []
+  }
+]
+
+
+
+
+
+
+
+https://www.kaggle.com/
+
+
+
+
+https://github.com/giridhar276/nec17092025m/blob/main/pandas_assignment.zip
+
+
+
+
+step3:
+chipo = pd.read_csv("chipotle.tsv",sep="\t")
+chipo.head(4)
+
+
+
+step4:
+
+prices = [   float(value[1:])   for value in chipo['item_price']]
+prices
+
+# assigning to the same columname
+chipo['item_price'] = prices 
+
+
+## delete duplicates
+chipo_filtered = chipo.drop_duplicates(['item_name','quantity','choice_description'])
+
+# display products only with quanity is 1
+chipo_one_prod = chipo_filtered[chipo_filtered['quantity'] == 1]
+chipo_one_prod
+
+
+cond = chipo_one_prod['item_price'] > 10
+chipo_one_prod[cond]
+
+
+
+
+
+step5:
+# delete duplicates
+chipo_filtered = chipo.drop_duplicates(["item_name","quantity"])
+
+# display the products where quantity is 1
+chipo_one_prod = chipo_filtered[ chipo_filtered['quantity'] == 1]
+
+# display itemname and price
+price_per_item = chipo_one_prod[['item_name','item_price']]
+
+price_per_item.sort_values( by = "item_price", ascending=False).head(10)
+
+
+
+#step6
+chipo.sort_values( by = 'item_name')
+
+
+
+step7
+chipo.sort_values( by = 'item_price', ascending=False).head(1)
+
+
+
+step8:
+cond = chipo['item_name'] == 'Veggie Salad Bowl' 
+records = chipo[cond]
+len(records)
+
+
+
+#step9
+cond1 =  chipo['item_name'] == "Canned Soda"
+cond2 =  chipo['quantity'] > 1
+
+len(chipo[cond1 & cond2 ])
+
+######################################################
+grouping
+####################################################
+
+
+
+step3
+users = pd.read_csv("u.user", sep = "|")
+users
+
+
+step4:
+users.groupby('occupation')['age'].mean()
+
+
+
+step5:
+
+# convert object to number m-->1  and F --->0
+myfunction = lambda x: 1 if x == "M" else 0
+users['gender_n'] = users['gender'].apply(myfunction)
+
+users
+
+
+#output = num/den
+
+output = users.groupby('occupation')['gender_n'].sum() / users['occupation'].value_counts() * 100
+
+output.sort_values(ascending=False)
+
+
+#step6
+users.groupby('occupation')['age'].agg(['min','max'])
+
+
+#step7
+users.groupby(['occupation','gender'])['age'].mean()
+
+
+#step8
+
+num =  users.groupby(['occupation','gender']).agg({'gender':'count'})
+
+den =  users.groupby(['occupation']).agg('count')
+
+genderoccu = num/den * 100
+
+genderoccu.loc[:,'gender']
+
+
+
+
+##############################################
+apply 
+##############################################
+
+step3:
+df = pd.read_csv('student-mat.csv')
+df.head()
+
+
+
+step4
+stud_alcoh = df.loc[:, "school":"guardian"]
+stud_alcoh
+
+
+
+
+step5
+capitalizer = lambda x: x.capitalize()
+
+
+
+
+step6
+stud_alcoh['Mjob'].apply(capitalizer)
+stud_alcoh['Fjob'].apply(capitalizer)
+
+
+step7 
+stud_alcoh.tail()
+
+
+step8
+stud_alcoh['Mjob'] = stud_alcoh['Mjob'].apply(capitalizer)
+stud_alcoh['Fjob'] = stud_alcoh['Fjob'].apply(capitalizer)
+
+
+step9
+
+majority = lambda x: True if x > 17 else False
+stud_alcoh['legal_drinker'] = stud_alcoh['age'].apply(majority)
+
+
+step10:
+def multiple(x):
+    # this condition is check whether column is numerical or not
+    if type(x) is int:
+        return 10 * x
+    return x
+
+stud_alcoh.applymap(multiple)
+
+
+
+
+
+
+####### merge
+
+step2:
+s1 = pd.Series(  np.random.randint(1,  high = 5 , size = 100 , dtype='l'))
+
+s2 = pd.Series(  np.random.randint(1,  high = 4 , size = 100 , dtype='l'))
+
+
+s3 = pd.Series(  np.random.randint(10000,  high = 30000 , size = 100 , dtype='l'))
+
+
+sttep3:
+housemarket = pd.concat([s1,s2,s3], axis = 1)  # axis = 1 indicates that is column basd operation
+housemarket
+
+
+step4
+
+housemarket.rename(columns = {0:"beds" , 1:"baths" , 2:"price_meter"} , inplace = True)
+
+housemarket
+
+
+step5
+bigcolumn = pd.concat([s1,s2,s3] , axis = 0)
+
+
+bigcolumn = bigcolumn.to_frame()  # converting series to dataframe
+
+bigcolumn
+
+
+
+step6
+len(bigcolumn)
+
+
+step7
+bigcolumn.reset_index(inplace = True)
+bigcolumn
+
+
+
+
+
+
+
+
+
+step1:
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+
+
+step3:
+titanic = pd.read_csv("train.csv")
+titanic.head()
+
+
+step4:
+# we are changing the default index
+titanic.set_index("PassengerId").head()
+
+
+
+
+step5:
+males = (titanic['Sex'] == "male").sum()
+females = (titanic['Sex'] == "female").sum()
+
+data = [males,females]
+
+
+plt.pie(data, labels=["males","females"]  , colors = ["green","red"] ,
+                        explode=(0.15,0) , startangle=90, shadow=True , autopct='%1.1f%%')
+
+plt.title("Gender proportion")
+plt.show()
+
+
+#https://matplotlib.org/stable/gallery/pie_and_polar_charts/pie_features.html#sphx-glr-gallery-pie-and-polar-charts-pie-features-py
+
+
+
+
+
+#step6
+output = sns.lmplot(x='Age', y = 'Fare', data  = titanic , hue = "Sex" ,fit_reg=False)
+output.set(title = "'Fare X Age")
+
+
+#step7
+titanic['Survived'].sum()
+
+
+
+#step8
+
+
+newdf = titanic['Fare']
+binsvalues = np.arange(0,600,10)  #600/10 = 60 bins
+plt.hist(newdf , bins = binsvalues)
+
+plt.xlabel("Fare")
+plt.ylabel("Frequency")
+plt.title("Fare payed")
+
+
+
+
+
+https://github.com/giridhar276/nec17092025m
+
+
+
+
+
+
+
+
+!pip install scikit-learn
+
+
+
+
+
+
+https://github.com/giridhar276/nec17092025m/blob/main/numpy.pdf
+
+
+
+
+
+
+from ftplib import FTP
+
+HOST = "test.rebex.net"
+USER = "demo"
+PASS = "password"
+
+with FTP(HOST, timeout=15) as ftp:
+    ftp.login(USER, PASS)
+    print("PWD:", ftp.pwd())
+    ftp.cwd("/pub/example")
+    with open("readme_ftp.txt", "wb") as out:
+        ftp.retrbinary("RETR readme.txt", out.write)
+    print("Downloaded readme_ftp.txt")
+
+
+
+
+
+from ftplib import FTP
+
+HOST = "test.rebex.net"
+USER = "demo"
+PASS = "password"
+
+with FTP(HOST, timeout=15) as ftp:
+    ftp.login(USER, PASS)
+    ftp.cwd("/pub/example")
+    with open("notes.txt", "r", encoding="utf-8") as f:
+        ftp.storlines("STOR notes.txt", f)
+    print("Uploaded notes.txt (text mode)")
+    
+    
+    
+    
+    
+    
+    
+# pip install paramiko
+import paramiko
+
+HOST, USER, PASS = "test.rebex.net", "demo", "password"
+
+client = paramiko.SSHClient()
+client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+client.connect(HOST, 22, USER, PASS, look_for_keys=False)
+
+# Run a simple command (may vary based on server capabilities)
+stdin, stdout, stderr = client.exec_command("ls -la")
+print(stdout.read().decode() or stderr.read().decode())
+
+
+
+
+
+
+
+
+# pip install paramiko
+import paramiko
+
+HOST, USER, PASS = "test.rebex.net", "demo", "password"
+
+client = paramiko.SSHClient()
+client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+client.connect(HOST, 22, USER, PASS, look_for_keys=False)
+
+# Run a simple command (may vary based on server capabilities)
+stdin, stdout, stderr = client.exec_command("ls -la")
+print(stdout.read().decode() or stderr.read().decode())
+
+
+
+
+
+
+https://repo.tzku.at/book/dev/python/masteringpythonnetworking.pdf
+
+
+
+
+
+
+
+Standard library (built-in)
+---------------------------------
+socket, selectors, ssl, asyncio – low-level networking, async I/O, TLS
+
+ipaddress – IPv4/IPv6 address/net utilities
+
+http.client, http.server, urllib.request, urllib.parse – basic HTTP client/server & URL tools
+
+ftplib – FTP client
+
+smtplib, imaplib, poplib, nntplib – email/news protocols
+
+telnetlib (deprecated-ish, legacy) – Telnet client
+
+xmlrpc.client/server – XML-RPC
+
+wsgiref – WSGI utilities
+
+HTTP clients (sync & async)
+-----------------------------
+requests – the classic high-level HTTP client
+
+urllib3 – robust HTTP library (requests’ engine)
+
+httpx – modern, sync+async HTTP client
+
+aiohttp – async HTTP client/server
+
+WebSocket
+-----------------
+websocket-client – WebSocket client (sync)
+
+websockets – async WebSocket client/server
+
+aiohttp (WebSocket support)
+
+python-socketio – Socket.IO client/server (sync/async)
+
+SSH / SFTP / Remote exec
+----------------------------
+paramiko – SSHv2, SFTP
+
+asyncssh – async SSH/SFTP
+
+fabric – remote command execution (built on paramiko)
+
+netmiko – SSH to network devices (Cisco/Juniper/etc.)
+
+scp – SCP file transfers (paramiko-based)
+
+FTP / Servers
+-------------
+ftputil – high-level FTP client
+
+pyftpdlib – build an FTP/FTPS server
+
+DNS / DHCP / NTP
+--------------------
+dnspython – DNS queries & zone ops
+
+ntplib – NTP client
+
+(DHCP is rarer; usually done via Scapy or system tools)
+
+SNMP & Network Automation
+------------------------
+pysnmp – SNMPv1/v2c/v3
+
+napalm – multi-vendor network automation
+
+nornir – framework for network automation workflows
+
+netaddr – IP address & network calc utilities
+
+Packet crafting / capture / analysis
+---------------------------------
+scapy – packet crafting/sniffing, protocols galore
+
+pyshark – wrapper for tshark (pcap analysis)
+
+dpkt – fast packet parsing
+
+pcapy / python-libpcap – libpcap bindings
+
+Message queues / streaming (network middleware)
+---------------------------------------------
+pika – AMQP (RabbitMQ)
+
+kafka-python, confluent-kafka – Apache Kafka
+
+paho-mqtt, asyncio-mqtt – MQTT
+
+RPC / gRPC / Thrift / ZeroMQ
+------------------------------
+grpcio (+ protobuf) – gRPC
+
+grpclib – asyncio-native gRPC
+
+thrift – Apache Thrift
+
+pyzmq – ZeroMQ bindings
+
+Realtime & Pub/Sub (web backends)
+
+redis-py (Pub/Sub), aioredis
+
+python-socketio (listed above)
+
+CoAP / IoT / Industrial
+------------------------
+aiocoap, coapthon – CoAP
+
+opcua, asyncua – OPC UA (industrial)
+
+bleak – Bluetooth Low Energy (BLE)
+
+Email (transport & parsing)
+------------------------------
+(transport in stdlib above)
+
+aiosmtplib – async SMTP
+
+email (stdlib), mail-parser – parsing utilities
+
+Higher-level web frameworks (server over the network)
+-------------------------------------------------
+FastAPI, Starlette, Flask, Django, Tornado, Sanic – build HTTP APIs/services
+
+Twisted – event-driven networking engine (multiple protocols)
+
+Tornado also includes its own HTTP/WebSocket server
+
+Testing / Mocking networks
+----------------------------
+responses – mock out requests
+
+httpretty – HTTP mocking for urllib/requests
+
+pytest-httpserver, aiohttp test utils – local mock servers
+
+Security / TLS helpers
+--------------------------
+cryptography – TLS certs/crypto primitives
+
+pyOpenSSL – OpenSSL wrapper (legacy-ish; prefer cryptography)
+
+
+
+
